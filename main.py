@@ -9,8 +9,18 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
 
+def fizzbuzz(n):
+    for i in range(n):
+        if i % 3 == 0:
+            print("fizz")
+        if i % 5 == 0:
+            print("buzz")
+        else:
+            print(i)
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    fizzbuzz(20)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
