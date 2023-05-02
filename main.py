@@ -15,6 +15,8 @@ def fizzbuzz(n):
             print("fizz")
         if i % 5 == 0:
             print("buzz")
+        if i == 7:
+            print("gozz")
         else:
             print(i)
 
