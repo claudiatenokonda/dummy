@@ -17,6 +17,8 @@ def fizzbuzz(n):
             print("buzz")
         if i == 7:
             print("gozz")
+        if i == 1:
+            print("first")
         else:
             print(i)
 
