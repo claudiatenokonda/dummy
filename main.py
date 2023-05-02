@@ -18,7 +18,7 @@ def fizzbuzz(n):
         if i == 7:
             print("gozz")
         if i == 1:
-            print("start")
+            print("new")
         else:
             print(i)
 
